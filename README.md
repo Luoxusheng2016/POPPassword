@@ -1,6 +1,6 @@
 #PasswordAlertView
 
-#If You Like , Pleast Star it!
+#If You Like , Please Star it!
                                                                                                
 #两种密码弹框                         
 
