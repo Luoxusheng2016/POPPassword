@@ -28,6 +28,11 @@
 		4BB6A4F61DB7511F0026E3EA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6A4EC1DB7511F0026E3EA /* ViewController+MASAdditions.m */; };
 		4BB6A4F81DB7530C0026E3EA /* NF密码icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A4F71DB7530C0026E3EA /* NF密码icon.png */; };
 		4BB6A4FA1DB754180026E3EA /* mobileredpacketdelegate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A4F91DB754180026E3EA /* mobileredpacketdelegate@2x.png */; };
+		4BB6A4FE1DB758220026E3EA /* Password1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A4FC1DB758220026E3EA /* Password1.png */; };
+		4BB6A4FF1DB758220026E3EA /* Password2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A4FD1DB758220026E3EA /* Password2.png */; };
+		4BB6A5031DB7583B0026E3EA /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A5001DB7583B0026E3EA /* img1.png */; };
+		4BB6A5041DB7583B0026E3EA /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A5011DB7583B0026E3EA /* img2.png */; };
+		4BB6A5051DB7583B0026E3EA /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6A5021DB7583B0026E3EA /* img3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,11 @@
 		4BB6A4EC1DB7511F0026E3EA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		4BB6A4F71DB7530C0026E3EA /* NF密码icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NF密码icon.png"; sourceTree = "<group>"; };
 		4BB6A4F91DB754180026E3EA /* mobileredpacketdelegate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobileredpacketdelegate@2x.png"; sourceTree = "<group>"; };
+		4BB6A4FC1DB758220026E3EA /* Password1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password1.png; sourceTree = "<group>"; };
+		4BB6A4FD1DB758220026E3EA /* Password2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password2.png; sourceTree = "<group>"; };
+		4BB6A5001DB7583B0026E3EA /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		4BB6A5011DB7583B0026E3EA /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		4BB6A5021DB7583B0026E3EA /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 		4BB6A4911DB750D90026E3EA = {
 			isa = PBXGroup;
 			children = (
+				4BB6A4FB1DB7580A0026E3EA /* introImg */,
 				4BB6A4F91DB754180026E3EA /* mobileredpacketdelegate@2x.png */,
 				4BB6A4F71DB7530C0026E3EA /* NF密码icon.png */,
 				4BB6A4D31DB7511F0026E3EA /* Masonry */,
@@ -217,6 +228,18 @@
 				4BB6A4EC1DB7511F0026E3EA /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		4BB6A4FB1DB7580A0026E3EA /* introImg */ = {
+			isa = PBXGroup;
+			children = (
+				4BB6A5001DB7583B0026E3EA /* img1.png */,
+				4BB6A5011DB7583B0026E3EA /* img2.png */,
+				4BB6A5021DB7583B0026E3EA /* img3.png */,
+				4BB6A4FC1DB758220026E3EA /* Password1.png */,
+				4BB6A4FD1DB758220026E3EA /* Password2.png */,
+			);
+			name = introImg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,11 +345,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB6A4FE1DB758220026E3EA /* Password1.png in Resources */,
+				4BB6A5031DB7583B0026E3EA /* img1.png in Resources */,
 				4BB6A4FA1DB754180026E3EA /* mobileredpacketdelegate@2x.png in Resources */,
 				4BB6A4AD1DB750D90026E3EA /* LaunchScreen.storyboard in Resources */,
 				4BB6A4AA1DB750D90026E3EA /* Assets.xcassets in Resources */,
 				4BB6A4A81DB750D90026E3EA /* Main.storyboard in Resources */,
 				4BB6A4F81DB7530C0026E3EA /* NF密码icon.png in Resources */,
+				4BB6A5051DB7583B0026E3EA /* img3.png in Resources */,
+				4BB6A5041DB7583B0026E3EA /* img2.png in Resources */,
+				4BB6A4FF1DB758220026E3EA /* Password2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

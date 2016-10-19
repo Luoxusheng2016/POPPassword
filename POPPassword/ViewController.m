@@ -43,6 +43,7 @@
 
 -(void)clickBtn{
     
+    //弹出式密码框
     PasswordAlertView *passView = [[PasswordAlertView alloc]initSingleBtnView];
     passView.passWordTextConfirm =^(NSString *text){//点击确定按钮输出密码
         
@@ -55,6 +56,7 @@
 
 -(void)clickBtn1{
     
+    //一体式密码框
     PasswordAlertView *passView = [[PasswordAlertView alloc]initPasswordView];
     passView.passWordText =^(NSString *text){//实时监听输入的密码
         
